@@ -1,0 +1,63 @@
+[
+    {
+        "icon":"https://static.vecteezy.com/system/resources/previews/022/597/313/original/3d-file-html-icon-illustration-png.png",
+        "title":"HTML",
+        "type":"language"
+    },
+    {
+        "icon":"https://static.vecteezy.com/system/resources/previews/023/741/751/original/3d-css-file-extension-document-illustration-concept-icon-free-png.png",
+        "title":"CSS",
+        "type":"language"
+    },
+    {
+        "icon":"https://static.vecteezy.com/system/resources/previews/015/081/382/original/js-file-format-3d-rendering-isometric-icon-png.png",
+        "title":"Javascript",
+        "type":"language"
+    },
+    {
+        "icon":"https://creazilla-store.fra1.digitaloceanspaces.com/icons/3254477/typescript-icon-md.png",
+        "title":"Typescript",
+        "type":"language"
+    },
+    {
+        "icon":"https://pluspng.com/img-png/react-logo-png-img-react-logo-png-react-js-logo-png-transparent-png-1142x1027.png",
+        "title":"Framework - React js",
+        "type":"framework"
+    },
+    {
+        "icon":"https://www.epitech-it.es/wp-content/uploads/2021/10/node-js-bo.png",
+        "title":"Framework - Node js",
+        "type":"framework"
+    },
+    {
+        "icon":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackersandslackers-cdn.storage.googleapis.com%2F2020%2F05%2Fexpress.png&f=1&nofb=1&ipt=2b0957bcb0bf25d21d39a204c681081adfefe9691333565e8db07ad45fd18664&ipo=images",
+        "title":"Framework - Express js",
+        "type":"framework"
+    },
+    {
+        "icon":"https://img.icons8.com/fluency/452/tailwind_css.png",
+        "title":"Database - Mongo DB",
+        "type":"database"
+    },
+    {
+        "icon":"https://img.icons8.com/fluency/452/tailwind_css.png",
+        "title":"Framework - Tailwindcss",
+        "type":"framework"
+    },
+    {
+        "icon":"https://img.icons8.com/fluency/452/tailwind_css.png",
+        "title":"Java Programming",
+        "type":"language"
+    },
+    {
+        "icon":"https://img.icons8.com/fluency/452/tailwind_css.png",
+        "title":"Python Programming",
+        "type":"language"
+    },
+    {
+        "icon":"https://img.icons8.com/fluency/452/tailwind_css.png",
+        "title":"Database - SQL",
+        "type":"database"
+    }
+
+]

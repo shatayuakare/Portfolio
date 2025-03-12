@@ -1,0 +1,12 @@
+.flex-2 {
+    display: flex;
+    flex: 2;
+}
+
+section {
+    min-height: 100vh;
+}
+
+header.navbar ul li.active{
+    border-bottom: 4px solid red;
+}

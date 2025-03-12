@@ -1,0 +1,27 @@
+[
+    {
+        "icon": "bxl-github",
+        "title": "Github",
+        "url": "https://github.com/shatayuakare"
+    },
+    {
+        "icon": "bxl-linkedin",
+        "title": "Linkedin",
+        "url": "https://linkedin.com/in/shatayuakare"
+    },
+    {
+        "icon": "bxl-telegram",
+        "title": "Telegram",
+        "url": "https://t.me/smartcoder121"
+    },
+    {
+        "icon": "bxl-facebook",
+        "title": "Facebok",
+        "url": "https://www.facebook.com/shatayu.akare.2024"
+    },
+    {
+        "icon": "bxl-instagram",
+        "title": "Instagram",
+        "url": "https://www.instagram.com/shatayu__aka__/"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "bx-devices",
+        "title": "Website Design",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste itaque magni voluptatibus magnam iusto quam quasi doloribus consequuntur beatae maiores, sequi repellendus sit obcaecati."
+    },
+    {
+        "icon": "bx-mobile-alt",
+        "title": "Application Development",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste itaque magni voluptatibus magnam iusto quam quasi doloribus consequuntur beatae maiores, sequi repellendus sit obcaecati."
+    },
+    {
+        "icon": "bxl-android",
+        "title": "Graphics Design",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste itaque magni voluptatibus magnam iusto quam quasi doloribus consequuntur beatae maiores, sequi repellendus sit obcaecati."
+    }
+]
