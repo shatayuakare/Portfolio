@@ -37,16 +37,6 @@ const App = () => {
       <Footer />
     </>
   );
-
-  // return (
-  //   <BrowserRouter>
-  //     <Header />
-  //     <Routes>
-  //       <Route path="/" Component={HomeScreen} />
-  //     </Routes>
-  //     <Footer />
-  //   </BrowserRouter>
-  // );
 };
 
 export default App;

@@ -1,4 +1,3 @@
-import React from "react";
 import skills from "../json/skills.json";
 
 const Skills = () => {

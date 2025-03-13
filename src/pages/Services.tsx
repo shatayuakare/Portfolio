@@ -1,4 +1,3 @@
-import React from "react";
 import PageHeading from "../components/PageHeading";
 import Service from "../json/services.json";
 

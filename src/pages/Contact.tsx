@@ -1,6 +1,4 @@
-import React, { useState } from "react";
 import PageHeading from "../components/PageHeading";
-import Colors from "../utils/Colors";
 
 const Contact = () => {
   const contactDetail = [

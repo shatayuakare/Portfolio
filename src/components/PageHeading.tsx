@@ -1,4 +1,9 @@
-const PageHeading = ({ title, describe }) => {
+interface PageHeadingProps {
+  title: string;
+  describe: string;
+}
+
+const PageHeading = ({ title, describe }: PageHeadingProps) => {
   return (
     <div className="text-center leading-tight">
       <div className={`uppercase font-semibold sm:text-sm pb-3 text-primary`}>

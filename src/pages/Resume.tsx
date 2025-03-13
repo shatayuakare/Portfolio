@@ -1,4 +1,3 @@
-import React from "react";
 import PageHeading from "../components/PageHeading";
 import experience from "../json/experiences.json";
 import education from "../json/education.json";
