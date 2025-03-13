@@ -3,24 +3,29 @@
         "title": "Rento-Go | Vehicle Rental",
         "description": "Rento Go is your go-to platform for renting and sharing vehicles. Explore a diverse selection of cars, enjoy flexible bookings, and transparent pricing as a renter. Vehicle owners can earn money by listing their idle cars. Join Rento Go today and experience convenient, reliable transportation tailored to your needs!",
         "url": "https://rento-go.netlify.app/",
-        "img": "https://media-hosting.imagekit.io//5dfd0fb2d5d14421/%7B59E294F7-0415-4BBF-800B-A6F7E2B63989%7D.png?Expires=1835434312&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=QEOPiDup8MI8GZHinBQxwE-l18B3qUuAJGKL34-rX6zF6RR9qymuUScN8bkP7pnHb7OZ2a2kD16Gbw6QyqEPfcGmJiYdabBQha6eIr5~Xjg~mstt~X5hBO5fmFzziLGjs2YLj2hLEYm~kUpUiTQ3F~T2KfdM5mXkzfWBPddm7M3pTc0ciDcK~z9B7laDiNymbqPmpplo8rTLwCi1FYmQ49WUA5ciKoF9P3rz3UjFARWdtfjhoiQKMijtBfrUhzEW3Z2sTiEFRIuv8GIBdVF4rOgb4CaTGQJkXxvYyHqGY3q7qXaF5e~Lw2JJ6wrHeQ5pRSnM9pi~b3FkIbwgwY7UoQ__",
+        "github": "https://github.com/shatayuakare/Rento-Go",
+        "img": "https://i.ibb.co/vxpLYYZ7/image.png",
         "skills": [
             "MERN Stack",
-            "Tailwindcss",
+            "Tailwindcss", 
             "DaisyUI",
             "Rest API",
             "Authentication"
         ]
     },
+
+    
+
     {
         "title": "Connex | Connect Peoples",
         "description": "",
-        "url": "",
+        "url": "https://connex1.netlify.app/",
+        "github": "https://github.com/shatayuakare/CONNEX",
         "img": "",
         "skills": [
             "MERN Stack",
             "Tailwindcss",
-            "DaisyUI",
+            "DaisyUI", 
             "Rest API",
             "Authentication"
         ]
@@ -29,15 +34,14 @@
         "title": "",
         "description": "",
         "url": "",
+        "github": "https://github.com/shatayuakare/Rento-Go",
         "img": "",
         "skills": [
             "MERN Stack",
             "Tailwindcss",
             "DaisyUI",
-            "Rest API",
+            "Rest API", 
             "Authentication"
         ]
     }
-
-    
 ]

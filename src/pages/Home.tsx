@@ -8,7 +8,7 @@ const Home = () => {
           <div className="grid sm:gap-2 md:gap-4 leading-none">
             <div className="sm:text-lg md:text-2xl">
               Hello,{" "}
-              <span className="text-primary sm:text-xl sm:text-2xl font-semibold">
+              <span className="text-primary sm:text-xl md:text-2xl font-semibold">
                 I'm
               </span>
             </div>
