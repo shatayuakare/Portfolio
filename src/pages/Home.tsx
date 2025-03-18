@@ -40,10 +40,7 @@ const Home = () => {
 
         <div className="flex md:justify-end sm:justify-center sm:order-1 md:order-2">
           <div className="bg-transparent sm:w-full sm:h-[25rem] sm:pt-9 md:h-[35rem] md:w-[35rem]  bg-gradient-to-l from-transparent to-primary from-25% mask mask-hexagon-2 overflow-hidden ">
-            <img
-              src="https://i.ibb.co/CKH64XX2/photo.png"
-              alt="Shatayu Akare"
-            />
+            <img src="./photo.png" alt="Shatayu Akare" />
           </div>
         </div>
       </div>
