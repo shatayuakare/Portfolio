@@ -1,3 +1,6 @@
+*{
+    user-select:none;
+}
 .flex-2 {
     display: flex;
     flex: 2;
@@ -6,7 +9,46 @@
 section {
     min-height: 100vh;
 }
+section.Toastify{
+  min-height: auto;
+}
 
 header.navbar ul li.active{
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid theme('colors.primary');
+}
+
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 50px; /* Increased border radius for more rounded thumb */
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.8);
+}
+
+/* Firefox scrollbar styles */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(128, 128, 128, 0.5) transparent;
+}
+
+/* Smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* For Safari and older browsers */
+body {
+  -webkit-overflow-scrolling: touch;
 }

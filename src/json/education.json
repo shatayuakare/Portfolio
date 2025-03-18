@@ -1,33 +1,32 @@
 [
   {
-    "title": "Bachelor of Computer Application",
-    "collage": "Rashtrasant Tukadoji Maharaj Nagpur University",
+    "title": "Bachelor of Computer Application (BCA)",
+    "collage": "Kamla Nehru Mahavidyalaya, Nagpur",
     "year": "2022 - 2025",
-    "description": "",
+    "description": "Completed an undergraduate program focusing on computer applications, gaining expertise in software development, programming languages, and problem-solving skills for diverse technology challenges.",
     "experties":[
         "Computer Science",
         "Web Development",
-    "Data Structure",
-    "Operating System",
-"Computer Network"
-
-]
+        "Data Structure",
+        "Operating System",
+        "Computer Network"
+      ]
   },
   {
-    "title": "Higher Secondary Certificate", 
+    "title": "Higher Secondary Certificate (HSC)", 
     "collage": "Nanaji Joshi Junior College, Shahapur",
     "year": "2021 - 2022",
-    "description": "",  
+    "description": "Completed high school education, excelling in subjects with a strong aptitude for information technology and problem-solving, developing critical thinking and analytical skills for future challenges.",  
     "experties":[
         "Information Technology",
         "Programming Languages" 
     ]
   },
   {
-    "title": "Secondary School Certificate",
+    "title": "Secondary School Certificate (SSC)",
     "collage": "Janata High School, Mouda", 
     "year": "2019 - 2020",
-    "description": "",
+    "description": "Completed secondary education, demonstrating strong aptitude for mathematics and problem-solving, laying a solid foundation for future academic and professional pursuits.",
     "experties":[
     "Mathematics"
     ]

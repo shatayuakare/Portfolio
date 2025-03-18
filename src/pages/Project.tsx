@@ -39,11 +39,28 @@ const Project = () => {
                 </a>
               </div>
 
-              <p className="text-sm dark:text-dark-lightText/60 line-clamp-3">
+              <p className="text-sm dark:text-dark-lightText/60 line-clamp-2">
                 {elem.description || "Project description coming soon..."}
               </p>
+              <button
+                onClick={(e) => {
+                  const pElement = e.currentTarget
+                    .previousElementSibling as HTMLElement;
+                  if (pElement) {
+                    pElement.classList.toggle("line-clamp-3");
+                    e.currentTarget.textContent = pElement.classList.contains(
+                      "line-clamp-2"
+                    )
+                      ? "Read More"
+                      : "Read Less";
+                  }
+                }}
+                className="text-primary hover:text-primary/80 text-sm"
+              >
+                Read More
+              </button>
 
-              <div className="mt-4 pt-3 border-t border-primary/5">
+              <div className="mt-2 pt-1 border-t border-primary/5">
                 <div className="flex gap-2 flex-wrap">
                   {elem.skills.map((skill, i) => (
                     <span

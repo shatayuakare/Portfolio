@@ -2,16 +2,16 @@
     {
         "icon": "bx-devices",
         "title": "Website Design",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste itaque magni voluptatibus magnam iusto quam quasi doloribus consequuntur beatae maiores, sequi repellendus sit obcaecati."
+        "description": "Skilled in website design and development, specializing in full-stack solutions using the MERN stack. Expertise in both frontend and backend technologies for dynamic applications."
     },
     {
         "icon": "bx-mobile-alt",
         "title": "Application Development",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste itaque magni voluptatibus magnam iusto quam quasi doloribus consequuntur beatae maiores, sequi repellendus sit obcaecati."
+        "description": "Dynamic full-stack developer specializing in creating robust applications with React Native. Proficient in both frontend and backend development, delivering seamless user experiences and innovative solutions."
     },
     {
         "icon": "bxl-android",
         "title": "Graphics Design",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste itaque magni voluptatibus magnam iusto quam quasi doloribus consequuntur beatae maiores, sequi repellendus sit obcaecati."
+        "description": "Creative graphic designer skilled in transforming ideas into visually compelling designs. Proficient in various software, I specialize in branding, print, and digital media projects."
     }
 ]

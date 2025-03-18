@@ -1,6 +1,5 @@
 import Social from "../json/social.json";
 
-// this component for footer
 const SocialIcon = () => {
   return (
     <div className="flex sm:gap-2 md:gap-5">

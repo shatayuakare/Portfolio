@@ -3,18 +3,39 @@
       "title": "Web Developer Intern",
       "company": "PHN Technology pvt ltd", 
       "duration": "March 2023 - June 2023",
-      "description": ""
+      "description": "Excited for my first internship at PHN Technology as a Web Development Intern! I'll enhance my skills, contribute to projects, and learn from industry professionals.",
+      "experties": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap 5",
+      "Responsive Design"
+      ]
     },
     {
       "title": "Web Developer Intern",
       "company": "LearnShamsher",
-      "duration": "2022 - 2025", 
-      "description": ""
+      "duration": "June 2023 - July 2023", 
+      "description": "Completed a web development internship at Learn Shamsher, where I gained hands-on experience in coding, design, and project collaboration, enhancing my skills in modern web technologies.",
+      "experties": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap 5",
+      "Responsive Design"
+      ]
     },
     {
       "title": "Full stack Developer Intern",
       "company": "VerveBridge",
-      "duration": "2022 - 2025",
-      "description": ""
+      "duration": "July 2024 - September 2024",
+      "description": "As a Full Stack Developer Intern at Vervebridge, I gained hands-on experience in developing web applications, collaborating on coding projects, and enhancing my software engineering skills.",
+      "experties": [
+        "MERN Stack",
+        "Tailwind CSS",
+        "Daysy UI",
+        "Token Authentication",
+        "Responsive Design"
+      ]
     }
   ]

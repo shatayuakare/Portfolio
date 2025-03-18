@@ -16,15 +16,20 @@ const Home = () => {
             <div className="sm:text-3xl md:text-[4vw] font-['Orbitron'] uppercase font-bold">
               Shatayu Akare
             </div>
-
+            <div className="flex gap-4 mt-2">
+              <div className="w-1/4 h-1 border-1 rounded-full bg-primary"></div>
+              <div className="w-1  h-1 border-1 rounded-full bg-primary"></div>
+              <div className="w-1  h-1 border-1 rounded-full bg-primary"></div>
+              <div className="w-1  h-1 border-1 rounded-full bg-primary"></div>
+            </div>
             <div className="sm:text-xl md:text-[1.8vw] dark:text-dark-lightText light:text-light-lightText ">
               Full Stack Developer and Application Development
             </div>
             <div className="dark:text-dark-lightText light:text-light-lightText sm:text-sm md:text-md">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Voluptatibus ab, laboriosam neque perspiciatis quam aspernatur
-              soluta perferendis quidem asperiores deleniti. Tempora illum
-              explicabo praesentium dolorum.
+              Passionate about crafting full-stack and mobile applications,
+              combining creativity and technical skills to deliver innovative
+              solutions that enhance user experience and solve real-world
+              problems.
             </div>
           </div>
           <div className="grid sm:gap-2 md:gap-5 mt-5">
@@ -34,12 +39,8 @@ const Home = () => {
         </div>
 
         <div className="flex md:justify-end sm:justify-center sm:order-1 md:order-2">
-          <div className="rounded-full md:h-[35vw] md:w-[35vw] bg-gradient-to-l from-transparent to-primary from-25%">
-            <img
-              className="mx-auto h-full"
-              src="https://static.vecteezy.com/system/resources/thumbnails/050/759/843/small_2x/professional-man-working-on-laptop-in-a-blue-suit-transparent-png.png"
-              alt=""
-            />
+          <div className="bg-transparent sm:w-full sm:h-[25rem] sm:pt-9 md:h-[35rem] md:w-[35rem]  bg-gradient-to-l from-transparent to-primary from-25% mask mask-hexagon-2 overflow-hidden ">
+            <img src="./src/assets/photo.png" alt="" />
           </div>
         </div>
       </div>

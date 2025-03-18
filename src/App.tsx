@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Services from "./pages/Services";
 import Resume from "./pages/Resume";
 import Skills from "./pages/Skills";
+import { ToastContainer } from "react-toastify";
 
 const HomeScreen = () => {
   return (
@@ -34,6 +35,12 @@ const App = () => {
     <>
       <Header />
       <HomeScreen />
+      <ToastContainer
+        style={{ height: 0 }}
+        autoClose={1500}
+        closeOnClick
+        theme="dark"
+      />
       <Footer />
     </>
   );

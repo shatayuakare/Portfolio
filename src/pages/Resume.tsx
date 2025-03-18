@@ -10,7 +10,7 @@ const Resume = () => {
       <div className="grid grid-cols-1 gap-14">
         <div className="">
           <div className="ps-0 pb-6 ">
-            <h3 className="text-[2.2vw] light:text-light-lightText dark:text-dark-lightText font-semibold">
+            <h3 className="md:text-[2.2vw] sm:text-2xl light:text-light-lightText dark:text-dark-lightText font-semibold">
               Job Experience
             </h3>
             <div className="text-primary font-semibold text-lg">
@@ -44,18 +44,33 @@ const Resume = () => {
                     {elem.description ||
                       "Worked on various web development projects using modern technologies and best practices. Collaborated with team members to deliver high-quality solutions."}
                   </p>
+                  <button
+                    onClick={(e) => {
+                      const pElement = e.currentTarget
+                        .previousElementSibling as HTMLElement;
+                      if (pElement) {
+                        pElement.classList.toggle("line-clamp-3");
+                        e.currentTarget.textContent =
+                          pElement.classList.contains("line-clamp-3")
+                            ? "Read More"
+                            : "Read Less";
+                      }
+                    }}
+                    className="text-primary hover:text-primary/80 text-sm"
+                  >
+                    Read More
+                  </button>
 
                   <div className="mt-4 pt-3 border-t border-primary/5">
                     <div className="flex gap-2 flex-wrap">
-                      <span className="text-xs px-2 py-1 rounded bg-primary/5 text-primary/80">
-                        React
-                      </span>
-                      <span className="text-xs px-2 py-1 rounded bg-primary/5 text-primary/80">
-                        Node.js
-                      </span>
-                      <span className="text-xs px-2 py-1 rounded bg-primary/5 text-primary/80">
-                        MongoDB
-                      </span>
+                      {elem.experties.map((elm, i) => (
+                        <span
+                          className="text-xs px-2 py-1 rounded bg-primary/5 text-primary/80"
+                          key={i}
+                        >
+                          {elm}
+                        </span>
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -66,7 +81,7 @@ const Resume = () => {
 
         <div className="">
           <div className="ps-0 pb-6 ">
-            <h3 className="text-[2.2vw] light:text-light-lightText dark:text-dark-lightText font-semibold">
+            <h3 className="md:text-[2.2vw] sm:text-2xl light:text-light-lightText dark:text-dark-lightText font-semibold">
               Education Qualities
             </h3>
             <div className="text-primary font-semibold text-lg">
@@ -90,11 +105,31 @@ const Resume = () => {
                       {elem.title}
                     </h3>
                   </div>
+                  <div className="flex items-center gap-2 mb-4 text-sm dark:text-dark-lightText/70">
+                    <i className="bx bx-building-house text-primary"></i>
+                    <span>{elem.collage}</span>
+                  </div>
 
                   <p className="text-sm dark:text-dark-lightText/60 line-clamp-3">
                     {elem.description ||
                       "Worked on various web development projects using modern technologies and best practices. Collaborated with team members to deliver high-quality solutions."}
                   </p>
+                  <button
+                    onClick={(e) => {
+                      const pElement = e.currentTarget
+                        .previousElementSibling as HTMLElement;
+                      if (pElement) {
+                        pElement.classList.toggle("line-clamp-3");
+                        e.currentTarget.textContent =
+                          pElement.classList.contains("line-clamp-3")
+                            ? "Read More"
+                            : "Read Less";
+                      }
+                    }}
+                    className="text-primary hover:text-primary/80 text-sm"
+                  >
+                    Read More
+                  </button>
 
                   <div className="mt-4 pt-3 border-t border-primary/5">
                     <div className="flex gap-2 flex-wrap">

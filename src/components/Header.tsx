@@ -10,7 +10,6 @@ const Header = () => {
       const scrollY = window.scrollY;
       const windowHeight = window.innerHeight;
 
-      // Sticky Header Logic
       if (scrollY >= 150) {
         setSticky(true);
       } else {
@@ -31,10 +30,10 @@ const Header = () => {
 
   return (
     <header
-      className={`navbar z-[9] md:px-14 font-semibold w-full py-0 ${
+      className={`navbar z-[9] md:px-14 font-semibold w-full duration-[0.3s] py-0 ${
         sticky
           ? "dark:bg-white light:bg-black fixed dark:text-black light:text-white shadow"
-          : "absolute top-0 left-0"
+          : "absolute top-2 left-0"
       } `}
     >
       <div className="navbar-start">
@@ -61,7 +60,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content backdrop-blur-sm light:text-light-lightText dark:text-dark-lightText rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li className={idx == 0 ? "active" : ""} onClick={() => setIdx(0)}>
               <a href={"#home"}>Home</a>
@@ -80,9 +79,12 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <button className="btn btn-ghost sm:btn-sm md:btn-lg sm:m-0 font-['Orbitron']  text-primary text-xl">
+        <a
+          href="./"
+          className="btn btn-ghost sm:btn-sm md:btn-lg sm:m-0 font-['Orbitron'] text-primary text-xl"
+        >
           Shatayu Akare
-        </button>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -104,7 +106,11 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-ghost rounded-full text-white sm:btn-sm sm:bg-blue-500  md:h-10 min-h-8 md:bg-primary">
+        <a
+          href="/Resume.pdf"
+          download="Resume.pdf"
+          className="btn btn-ghost rounded-md text-white sm:btn-sm md:h-10 min-h-8 bg-primary hover:bg-primary/80"
+        >
           Resume
         </a>
       </div>

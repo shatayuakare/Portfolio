@@ -12,13 +12,30 @@ const Services = () => {
             className="p-8 shadow-xl dark:bg-dark-lightBackground rounded-xl"
             key={index}
           >
-            <i className={`bx text-[3rem] text-primary ${elem.icon}`}></i>
-            <h4 className="text-2xl p-1 font-semibold dark:text-dark-text light:text-light-text">
+            <i className={`bx text-[2.8rem] text-primary ${elem.icon}`}></i>
+            <h4 className="text-2xl p-1  dark:text-dark-text light:text-light-text">
               {elem.title}
             </h4>
-            <p className="dark:text-dark-lightText light:text-light-lightText">
+            <p className="dark:text-dark-lightText light:text-light-lightText line-clamp-3">
               {elem.description}
             </p>
+            <button
+              onClick={(e) => {
+                const pElement = e.currentTarget
+                  .previousElementSibling as HTMLElement;
+                if (pElement) {
+                  pElement.classList.toggle("line-clamp-3");
+                  e.currentTarget.textContent = pElement.classList.contains(
+                    "line-clamp-3"
+                  )
+                    ? "Read More"
+                    : "Read Less";
+                }
+              }}
+              className="text-primary hover:text-primary/80 text-sm"
+            >
+              Read More
+            </button>
           </div>
         ))}
       </div>
