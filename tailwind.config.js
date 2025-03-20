@@ -26,11 +26,11 @@ export default {
     extend: {
       colors: {
         light: {
-          background: "#fffafa",
-          lightBackground: "#fffafa66",
-          text: "#28282b",
-          lightText: "#28282baa",
-          border: "",
+      background: "#121212",
+          lightBackground: "#282C3566",
+          text: "#f5f5f5",
+          lightText: "#a6a6a6",
+          border: "#a6a6a6",
           lightBorder: "",
         },
         dark: {

@@ -13,9 +13,6 @@
             "Authentication"
         ]
     },
-
-    
-
     {
         "title": "Connex | Connect Peoples",
         "description": "",
@@ -37,11 +34,9 @@
         "github": "https://github.com/shatayuakare/Rento-Go",
         "img": "https://i.ibb.co/1GD5DFcx/988-E1-D54-B276-4492-818-A-1995-C670-A256.png",
         "skills": [
-            "MERN Stack",
-            "Tailwindcss",
-            "DaisyUI",
-            "Rest API", 
-            "Authentication"
+            "Bootstrap 5",
+            "Frontend",
+            "React Js"
         ]
     }
 ]
