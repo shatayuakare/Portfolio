@@ -15,6 +15,7 @@ export default {
       ],
     },
   },
+// darkMode:"media",
   theme: {
     screens: {
       'sm': '320px',
@@ -25,8 +26,8 @@ export default {
     },
     extend: {
       colors: {
-        light: {
-      background: "#121212",
+       light: {
+          background: "#121212",
           lightBackground: "#282C3566",
           text: "#f5f5f5",
           lightText: "#a6a6a6",

@@ -13,7 +13,7 @@ html {
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'iansui';
-    transition: 0.3s ease;
+    transition: 0.2s ease;
 }
 a:hover{
     background: none;

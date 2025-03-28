@@ -11,7 +11,7 @@ const PageHeading = ({ title, describe }: PageHeadingProps) => {
       >
         {title}
       </div>
-      <div className="text-white sm:text-xl md:text-[3.4vw] capitalize font-[Orbitron] leading-0">
+      <div className="dark:text-white sm:text-xl md:text-[3.4vw] capitalize font-[Orbitron] leading-0">
         {describe}
       </div>
     </div>

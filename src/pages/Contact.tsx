@@ -130,7 +130,7 @@ const Contact = () => {
         <div className="flex-1 flex flex-col justify-between sm:gap-4 sm:order-2 md:order-1">
           {contactDetail.map((elem, idx) => (
             <div
-              className="p-4 md:p-6 shadow-lg rounded-xl flex flex-col items-center justify-between  dark:bg-dark-lightBackground light:bg-light-background gap-2"
+              className="p-4 md:p-6 shadow-lg rounded-xl flex flex-col items-center justify-between  dark:bg-dark-lightBackground bg-light-background gap-2"
               key={idx}
             >
               <i

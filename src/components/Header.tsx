@@ -30,9 +30,9 @@ const Header = () => {
 
   return (
     <header
-      className={`navbar z-[9] md:px-14 font-semibold w-full duration-[0.3s] py-0 ${
+      className={`navbar z-[9] md:px-14 font-semibold w-full duration-[0.1s] py-0 ${
         sticky
-          ? "dark:bg-white light:bg-black fixed dark:text-black light:text-white shadow"
+          ? "dark:bg-white backdrop-blur-sm bg-black fixed dark:text-black text-white shadow"
           : "absolute top-2 left-0"
       } `}
     >
