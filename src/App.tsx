@@ -13,8 +13,8 @@ import { ToastContainer } from "react-toastify";
 const HomeScreen = () => {
   return (
     <main
-      className="dark:bg-dark-background dark:text-dark-text dark:border-dark-border  
-      sm:px-3 md:px-20 lg:px-24 bg-light-background text-light-text border-light-border  "
+      className="bg-dark-background text-dark-text border-dark-border  
+      sm:px-3 md:px-20 lg:px-24  "
     >
       <Home />
       <Skills />

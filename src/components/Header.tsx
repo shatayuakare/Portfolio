@@ -30,9 +30,9 @@ const Header = () => {
 
   return (
     <header
-      className={`navbar z-[9] md:px-14 font-semibold w-full duration-[0.1s] py-0 ${
+      className={`navbar z-[9] md:px-14 text-dark-lightText font-semibold w-full duration-[0.1s] py-0 ${
         sticky
-          ? "dark:bg-white backdrop-blur-sm bg-black fixed dark:text-black text-white shadow"
+          ? "bg-white backdrop-blur-md fixed text-black shadow"
           : "absolute top-2 left-0"
       } `}
     >
@@ -41,7 +41,7 @@ const Header = () => {
           <div
             tabIndex={0}
             role="button"
-            className="btn btn-ghost btn-sm lg:hidden"
+            className="btn btn-ghost text-dark-lightText px-1 btn-sm lg:hidden"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content backdrop-blur-sm light:text-light-lightText dark:text-dark-lightText rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content backdrop-blur-xl  text-dark-lightText rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li className={idx == 0 ? "active" : ""} onClick={() => setIdx(0)}>
               <a href={"#home"}>Home</a>
@@ -81,13 +81,13 @@ const Header = () => {
         </div>
         <a
           href="./"
-          className="btn btn-ghost sm:btn-sm md:btn-lg sm:m-0 font-['Orbitron'] text-primary text-xl"
+          className="btn btn-ghost sm:btn-sm md:btn-lg px-0 sm:m-0 font-['Orbitron'] text-primary text-xl"
         >
           Shatayu Akare
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal  px-1">
           <li className={idx == 0 ? "active" : ""} onClick={() => setIdx(0)}>
             <a href={"#home"}>Home</a>
           </li>

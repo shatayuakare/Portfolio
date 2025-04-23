@@ -130,7 +130,7 @@ const Contact = () => {
         <div className="flex-1 flex flex-col justify-between sm:gap-4 sm:order-2 md:order-1">
           {contactDetail.map((elem, idx) => (
             <div
-              className="p-4 md:p-6 shadow-lg rounded-xl flex flex-col items-center justify-between  dark:bg-dark-lightBackground bg-light-background gap-2"
+              className="p-4 md:p-6 shadow-lg rounded-xl flex flex-col items-center justify-between  bg-dark-lightBackground  gap-2"
               key={idx}
             >
               <i
@@ -147,11 +147,11 @@ const Contact = () => {
             action=""
             onSubmit={handleSubmit}
           >
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 sm:gap-3 md:gap-5">
+            <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:gap-3 md:gap-5">
               <input
                 type="text"
                 placeholder="Enter your name"
-                className="input w-full text-zinc-300 focus:outline-none dark:bg-dark-background light:bg-light-background"
+                className="input w-full text-zinc-300 focus:outline-none dark:bg-dark-background bg-light-background"
                 name="name"
                 value={formData.name}
                 onChange={(e) =>
@@ -161,7 +161,7 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Enter your Phone"
-                className="input w-full text-zinc-300 focus:outline-none dark:bg-dark-background light:bg-light-background"
+                className="input w-full text-zinc-300 focus:outline-none dark:bg-dark-background bg-light-background"
                 name="phone"
                 value={formData.phone}
                 onChange={(e) =>
@@ -171,7 +171,7 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="input w-full text-zinc-300 focus:outline-none dark:bg-dark-background light:bg-light-background"
+                className="input w-full text-zinc-300 focus:outline-none dark:bg-dark-background bg-light-background"
                 name="email"
                 value={formData.email}
                 onChange={(e) =>
@@ -181,7 +181,7 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Enter your Subject"
-                className="input w-full text-zinc-300 focus:outline-none dark:bg-dark-background light:bg-light-background"
+                className="input w-full text-zinc-300 focus:outline-none dark:bg-dark-background bg-light-background"
                 name="subject"
                 value={formData.subject}
                 onChange={(e) =>
@@ -191,7 +191,7 @@ const Contact = () => {
             </div>
             <textarea
               className="textarea resize-none
-                        input w-full text-zinc-300 focus:outline-none  h-52 dark:bg-dark-background light:bg-light-background"
+                        input w-full text-zinc-300 focus:outline-none  sm:h-24 md:h-32 lg:h-52 dark:bg-dark-background bg-light-background"
               rows={5}
               placeholder="Enter your Message"
               name="message"
@@ -202,13 +202,13 @@ const Contact = () => {
             ></textarea>
             {error && <div className="text-red-500">{error}</div>}
             {!status && (
-              <div className="light:text-light-lightText dark:text-dark-lightText">
+              <div className="text-light-lightText dark:text-dark-lightText">
                 {status}
               </div>
             )}
 
             <button
-              className="btn btn-ghost btn-wide  text-lg py-2 mx-auto rounded-full dark:bg-dark-background light:bg-light-background"
+              className="btn btn-ghost btn-wide  text-lg py-2 mx-auto rounded-full dark:bg-dark-background bg-light-background"
               type="submit"
               disabled={isLoading}
             >
