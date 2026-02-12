@@ -1,5 +1,20 @@
 [
     {
+        "title": "Layout Wallah | Real Estate",
+        "description": "I developed a responsive real estate website focused on selling nearby layout plots. It features dynamic property listings with filters, high-quality images, virtual tours, and an interactive map for easy location browsing. The platform also includes secure contact forms and user registration to facilitate smooth communication between buyers and agents. This project showcases my skills in web development and creating user-friendly real estate platforms",
+        "url": "https://layoutwallah.netlify.app/",
+        "github": "https://github.com/shatayuakare/Layout-Wallah",
+        "img": "https://i.ibb.co/xqsyKkrG/image.png",
+        "skills": [
+            "MERN Stack",
+            "Tailwindcss",
+            "DaisyUI",
+            "Rest API",
+            "Map API",
+            "Authentication"
+        ]
+    },
+    {
         "title": "Rento-Go | Vehicle Rental",
         "description": "Rento Go is your go-to platform for renting and sharing vehicles. Explore a diverse selection of cars, enjoy flexible bookings, and transparent pricing as a renter. Vehicle owners can earn money by listing their idle cars. Join Rento Go today and experience convenient, reliable transportation tailored to your needs!",
         "url": "https://rento-go.netlify.app/",
@@ -7,7 +22,7 @@
         "img": "https://i.ibb.co/vxpLYYZ7/image.png",
         "skills": [
             "MERN Stack",
-            "Tailwindcss", 
+            "Tailwindcss",
             "DaisyUI",
             "Rest API",
             "Authentication"
@@ -18,11 +33,11 @@
         "description": "",
         "url": "https://connex1.netlify.app/",
         "github": "https://github.com/shatayuakare/CONNEX",
-        "img": "",
+        "img": "https://i.ibb.co/HL5Nhphm/image.png",
         "skills": [
             "MERN Stack",
             "Tailwindcss",
-            "DaisyUI", 
+            "DaisyUI",
             "Rest API",
             "Authentication"
         ]

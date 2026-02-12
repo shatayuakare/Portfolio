@@ -6,10 +6,10 @@ const Services = () => {
     <section className="content-center sm:pt-4" id="servises">
       <PageHeading title={"My Services"} describe={"What i Do"} />
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 sm:gap-5 md:gap-8 mt-8">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5 md:gap-8 mt-12">
         {Service.map((elem, index) => (
           <div
-            className="p-8 shadow-xl dark:bg-dark-lightBackground rounded-xl"
+            className="p-8 shadow-xl bg-light-lightBackground dark:bg-dark-lightBackground rounded-xl"
             key={index}
           >
             <i className={`bx text-[2.8rem] text-primary ${elem.icon}`}></i>

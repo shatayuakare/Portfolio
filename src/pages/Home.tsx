@@ -6,14 +6,14 @@ const Home = () => {
       <div className="grid sm:grid-cols-1 md:grid-cols-2">
         <div className="content-center sm:order-2 md:order-1">
           <div className="grid sm:gap-2 md:gap-4 leading-none">
-            <div className="sm:text-lg md:text-2xl">
+            <div className="sm:text-lg md:text-2xl text-light-text/80 dark:text-dark-text/80">
               Hello,{" "}
               <span className="text-primary sm:text-xl md:text-2xl font-semibold">
                 I'm
               </span>
             </div>
 
-            <div className="sm:text-3xl md:text-[4vw] font-['Orbitron'] uppercase font-bold">
+            <div className="sm:text-3xl text-light-text dark:text-dark-text md:text-[4vw] font-['Orbitron'] uppercase font-bold">
               Shatayu Akare
             </div>
             <div className="flex gap-4 mt-2">
@@ -22,10 +22,10 @@ const Home = () => {
               <div className="w-1  h-1 border-1 rounded-full bg-primary"></div>
               <div className="w-1  h-1 border-1 rounded-full bg-primary"></div>
             </div>
-            <div className="sm:text-xl md:text-[1.8vw] dark:text-dark-lightText light:text-light-lightText ">
-              Full Stack Developer and Application Development
+            <div className="sm:text-xl md:text-[1.8vw] dark:text-dark-lightText text-light-text/80 font-semibold">
+              Full Stack Developer and Data Analyst
             </div>
-            <div className="dark:text-dark-lightText light:text-light-lightText sm:text-sm md:text-md">
+            <div className="dark:text-dark-lightText text-light-text/75 text-lg leading-6">
               Passionate about crafting full-stack and mobile applications,
               combining creativity and technical skills to deliver innovative
               solutions that enhance user experience and solve real-world
@@ -33,7 +33,7 @@ const Home = () => {
             </div>
           </div>
           <div className="grid sm:gap-2 md:gap-5 mt-5">
-            <h5 className="text-lg font-semibold">Find me On</h5>
+            <h5 className="text-lg font-semibold text-light-text/80 dark:text-dark-text/90">Find me On</h5>
             <SocialIcon />
           </div>
         </div>

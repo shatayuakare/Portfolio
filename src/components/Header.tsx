@@ -30,11 +30,10 @@ const Header = () => {
 
   return (
     <header
-      className={`navbar z-[9] md:px-14 text-dark-lightText font-semibold w-full duration-[0.1s] py-0 ${
-        sticky
-          ? "bg-white backdrop-blur-md fixed text-black shadow"
-          : "absolute top-2 left-0"
-      } `}
+      className={`navbar z-[9] md:px-14 text-dark-lightText font-semibold w-full duration-[0.1s] py-0 ${sticky
+        ? "bg-primaryDark backdrop-blur-md fixed text-black shadow-lg"
+        : "absolute top-2 left-0"
+        } `}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -109,7 +108,7 @@ const Header = () => {
         <a
           href="/Resume.pdf"
           download="Resume.pdf"
-          className="btn btn-ghost rounded-md text-white sm:btn-sm md:h-10 min-h-8 bg-primary hover:bg-primary/80"
+          className="btn btn-ghost rounded-md text-black font-semibold sm:btn-sm md:h-10 min-h-8 bg-primary hover:bg-primary/80"
         >
           Resume
         </a>

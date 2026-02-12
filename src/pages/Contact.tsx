@@ -15,7 +15,7 @@ const Contact = () => {
     },
     {
       icon: "bx-phone-call",
-      title: "+91 9359966102",
+      title: "+91 8275047836",
     },
     {
       icon: "bx-mail-send",
@@ -112,7 +112,7 @@ const Contact = () => {
           `*Email:* ${formData.email}%0A` +
           `*Subject:* ${formData.subject}%0A` +
           `*Message:* ${formData.message}`;
-        const phoneNumber = "9359966102";
+        const phoneNumber = "8275047836";
         const waURL = `https://wa.me/${phoneNumber}?text=${text}`;
 
         setIsLoading(false);
@@ -123,7 +123,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contant-center sm:py-6 md:py-10 sm:pt-0" id="contact">
+    <section className="md:content-center py-6 md:py-10" id="contact">
       <PageHeading title="Contact" describe="Contact with me" />
 
       <div className="flex flex-1 sm:flex-col md:flex-row sm:gap-4 md:gap-8 sm:p-6 md:p-10 sm:px-0">
@@ -191,7 +191,7 @@ const Contact = () => {
             </div>
             <textarea
               className="textarea resize-none
-                        input w-full text-zinc-300 focus:outline-none  sm:h-24 md:h-32 lg:h-52 dark:bg-dark-background bg-light-background"
+                        input w-full text-zinc-300 focus:outline-none  sm:h-24 md:h-32 lg:h-52 bg-dark-background "
               rows={5}
               placeholder="Enter your Message"
               name="message"
@@ -208,7 +208,7 @@ const Contact = () => {
             )}
 
             <button
-              className="btn btn-ghost btn-wide  text-lg py-2 mx-auto rounded-full dark:bg-dark-background bg-light-background"
+              className="btn btn-ghost btn-wide  text-lg py-2 mx-auto rounded-full bg-primary hover:bg-primary"
               type="submit"
               disabled={isLoading}
             >

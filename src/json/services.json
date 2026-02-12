@@ -5,12 +5,22 @@
         "description": "Skilled in website design and development, specializing in full-stack solutions using the MERN stack. Expertise in both frontend and backend technologies for dynamic applications."
     },
     {
-        "icon": "bx-mobile-alt",
+        "icon": "bxl-android",
         "title": "Application Development",
         "description": "Dynamic full-stack developer specializing in creating robust applications with React Native. Proficient in both frontend and backend development, delivering seamless user experiences and innovative solutions."
     },
     {
-        "icon": "bxl-android",
+        "icon": "bx-laptop",
+        "title": "Software Testing",
+        "description": "Proficient in software testing, including test planning, execution, and defect tracking. Skilled in manual testing, creating test cases, and ensuring software quality through thorough testing processes."
+    },
+    {
+        "icon": "bx-laptop",
+        "title": "Data Analyst",
+        "description": "Proficient in analyzing large datasets to extract actionable insights, using tools like Excel, SQL, and Python. Skilled in data visualization, trend analysis, and creating reports that support informed decision-making."
+    },
+    {
+        "icon": "bx-mobile-alt",
         "title": "Graphics Design",
         "description": "Creative graphic designer skilled in transforming ideas into visually compelling designs. Proficient in various software, I specialize in branding, print, and digital media projects."
     }

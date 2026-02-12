@@ -6,16 +6,16 @@ const Project = () => {
     <section className="content-center" id="project">
       <PageHeading title={"Project"} describe={"Previous work"} />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
         {projects.map((elem, index) => (
           <div key={index} className="relative group">
-            <div className="bg-dark-lightBackground/30 rounded-lg p-5 border border-primary/5 hover:border-primary/20 transition-all duration-300">
+            <div className="bg-dark-lightBackground rounded-lg p-2 border border-primary/15 hover:border-primary/20 transition-all duration-300">
               <div className="absolute -top-3 -right-2 bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">
                 {elem.title}
               </div>
 
               {/* Image Section */}
-              <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+              <div className="w-full h-48 mb-4 overflow-hidden rounded-lg bg-primary">
                 <img
                   src={elem.img || "https://placehold.co/600x400"}
                   alt={elem.title}
@@ -39,7 +39,7 @@ const Project = () => {
                 </a>
               </div>
 
-              <p className="text-sm dark:text-dark-lightText/60 line-clamp-2">
+              <p className="text-sm dark:text-dark-lightText line-clamp-2">
                 {elem.description || "Project description coming soon..."}
               </p>
               <button
@@ -65,7 +65,7 @@ const Project = () => {
                   {elem.skills.map((skill, i) => (
                     <span
                       key={i}
-                      className="text-xs px-2 py-1 rounded bg-primary/5 text-primary/80"
+                      className="text-xs px-2 py-1 rounded bg-primary/5 text-primary/90"
                     >
                       {skill}
                     </span>
