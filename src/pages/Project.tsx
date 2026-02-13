@@ -6,7 +6,7 @@ const Project = () => {
     <section className="content-center" id="project">
       <PageHeading title={"Project"} describe={"Previous work"} />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center lg:grid-cols-4 gap-6 mt-16">
         {projects.map((elem, index) => (
           <div key={index} className="relative group">
             <div className="bg-dark-lightBackground rounded-lg p-2 border border-primary/15 hover:border-primary/20 transition-all duration-300">
