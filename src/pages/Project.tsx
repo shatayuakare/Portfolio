@@ -39,7 +39,7 @@ const Project = () => {
                 </a>
               </div>
 
-              <p className="text-sm dark:text-dark-lightText line-clamp-2">
+              <p className="text-sm dark:text-dark-text/80 text-light-text/65 line-clamp-3">
                 {elem.description || "Project description coming soon..."}
               </p>
               <button

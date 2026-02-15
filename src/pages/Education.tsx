@@ -38,7 +38,7 @@ const Education = () => {
                                     <span>{elem.collage}</span>
                                 </div>
 
-                                <p className="text-sm dark:text-dark-lightText/60 line-clamp-3">
+                                <p className="text-sm dark:text-dark-text/80 text-light-text/65  line-clamp-3">
                                     {elem.description ||
                                         "Worked on various web development projects using modern technologies and best practices. Collaborated with team members to deliver high-quality solutions."}
                                 </p>

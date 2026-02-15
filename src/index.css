@@ -15,12 +15,15 @@ html {
     font-family: 'iansui';
     transition: 0.2s ease;
 }
-a:hover{
+
+a:hover {
     background: none;
 }
-a:focus{
+
+a:focus {
     background: none;
 }
+
 .swiper {
     width: 600px;
     height: 300px;

@@ -27,11 +27,9 @@ const Home = () => {
             <div className="sm:text-xl md:text-[1.8vw] dark:text-dark-lightText text-light-text/80 font-semibold">
               Full Stack Developer and Data Analyst
             </div>
-            <div className="dark:text-dark-lightText text-light-text/75 text-lg leading-6">
-              Passionate about crafting full-stack and mobile applications,
-              combining creativity and technical skills to deliver innovative
-              solutions that enhance user experience and solve real-world
-              problems.
+            <div className="dark:text-dark-lightText text-light-text/75 text-md leading-6">
+              I am a versatile developer with expertise in website design, full-stack development, and mobile applications. Skilled in data analysis and software testing, I focus on creating innovative and reliable digital solutions. Passionate about continuous learning and problem-solving, I aim to deliver high-quality work that exceeds expectations. Let's work together to bring your ideas to life!
+
             </div>
           </div>
           <div className="grid sm:gap-2 md:gap-5 mt-5">
@@ -56,6 +54,10 @@ const Home = () => {
             </div>
 
             {/*  These empty divs for just hover effect  */}
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
             <div></div>
             <div></div>
             <div></div>

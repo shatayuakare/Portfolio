@@ -80,7 +80,7 @@ const Header = () => {
         </div>
         <a
           href="./"
-          className="btn btn-ghost sm:btn-sm md:btn-lg px-0 sm:m-0 font-['Orbitron'] text-primary text-xl"
+          className="btn btn-ghost focus:outline-none sm:btn-sm md:btn-lg px-0 sm:m-0 font-['Orbitron'] text-primary text-xl"
         >
           Shatayu Akare
         </a>
@@ -108,7 +108,7 @@ const Header = () => {
         <a
           href="/Resume.pdf"
           download="Resume.pdf"
-          className="btn btn-ghost rounded-md text-black font-semibold sm:btn-sm md:h-10 min-h-8 bg-primary hover:bg-primary/80"
+          className="btn btn-ghost rounded-md text-black font-semibold sm:btn-sm md:h-10 min-h-8 bg-primary hover:bg-primary/80 focus:outline-none focus:bg-primary "
         >
           Resume
         </a>
