@@ -1,8 +1,4 @@
 
-@plugin "daisyui" {
-  themes: dark --default, light --prefersdark, cupcake;
-}
-
 *{
     user-select:none;
 }

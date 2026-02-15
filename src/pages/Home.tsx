@@ -1,6 +1,8 @@
 import SocialIcon from "../components/SocialIcon";
 
 const Home = () => {
+
+
   return (
     <section className="content-center pt-12" id="home">
       <div className="grid sm:grid-cols-1 md:grid-cols-2">
@@ -13,7 +15,7 @@ const Home = () => {
               </span>
             </div>
 
-            <div className="sm:text-3xl text-light-text dark:text-dark-text md:text-[4vw] font-['Orbitron'] uppercase font-bold">
+            <div className="sm:text-3xl text-light-text dark:text-dark-text md:text-[4vw] font-['Orbitron'] uppercase text-shadow-xl font-bold">
               Shatayu Akare
             </div>
             <div className="flex gap-4 mt-2">
@@ -36,20 +38,40 @@ const Home = () => {
             <h5 className="text-lg font-semibold text-light-text/80 dark:text-dark-text/90">Find me On</h5>
             <SocialIcon />
           </div>
+
         </div>
 
         <div className="flex md:justify-end sm:justify-center sm:order-1 md:order-2">
-          <div className="sm:w-full sm:h-[25rem] sm:pt-10 md:h-[30rem] md:w-[30rem] lg:h-[35rem] lg:w-[35rem] bg-gradient-to-l from-transparent to-primary from-25% mask mask-hexagon-2 overflow-hidden relative">
-            <img
-              className="absolute sm:top-12 sm:left-0 sm:right-0 md:right-0 md:left-0"
-              src="./photo.png"
-              alt="Shatayu Akare"
-            />
-            {/* https://i.ibb.co/CKH64XX2/photo.png */}
+          <div
+            className={`w-full md:w-fit ${typeof window !== "undefined" && window.innerWidth >= 768 ? "hover-3d" : ""
+              }`}
+          >
+            <div className="sm:w-full sm:h-[25rem] sm:pt-10 md:h-[30rem] md:w-[30rem] lg:h-[35rem] lg:w-[35rem] bg-gradient-to-b from-transparent to-primary from-0% mask mask-hexagon-2 overflow-hidden relative">
+              <img
+                className="absolute top-12 left-3 sm:right-0 md:right-0 md:left-6 md:top-10"
+                src="./photo.png"
+                alt="Shatayu Akare"
+              />
+              {/* https://i.ibb.co/CKH64XX2/photo.png */}
+            </div>
+
+            {/*  These empty divs for just hover effect  */}
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 

@@ -18,7 +18,7 @@ const Experience = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
         {experience.map((elem, index) => (
           <div key={index} className="relative group">
-            <div className="bg-dark-lightBackground rounded-lg p-5 border border-primary/5 hover:border-primary/20 transition-all duration-300">
+            <div className="bg-dark-lightBackground rounded-lg p-5 border border-primary/5 hover:border-primary/20 transition-all md:hover:scale-105 duration-300">
               <div className="absolute -top-3 -right-2 bg-primary/10 text-primary text-xs px-3 py-1 rounded-full">
                 {elem.duration}
               </div>
